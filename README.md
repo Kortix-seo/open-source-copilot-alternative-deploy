@@ -1,12 +1,12 @@
 # Kortix is open source: deploy an alternative to Microsoft Copilot
 
-Kortix is the open-source AI Operating System. This repository is a working deployment template for it: one Docker Compose stack plus a `kortix.yaml`, so a team can run an open-source alternative to Microsoft Copilot on servers it controls.
+Kortix is the open-source CompanyOS. This repository is a working deployment template for it: one Docker Compose stack plus a `kortix.yaml`, so a team can run an open-source alternative to Microsoft Copilot on servers it controls.
 
 One stack, one manifest, any model, your keys.
 
 ## What this repository deploys
 
-Kortix is an open-source AI Operating System: your agents, their skills, your company memory, and every connector in one git repo you own, with the agents working on real cloud computers. The deployment here stands up the application services, the Supabase data plane they need, and a TLS proxy in front, on a single Linux host.
+Kortix is an open-source CompanyOS: your agents, their skills, your company memory, and every connector in one git repo you own, with the agents working on real cloud computers. The deployment here stands up the application services, the Supabase data plane they need, and a TLS proxy in front, on a single Linux host.
 
 - `docker-compose.yml` runs the stack: `frontend`, `kortix-api`, `llm-gateway`, the Supabase distribution, and Caddy for TLS.
 - `kortix.yaml` is the project manifest: the sandbox image, the connectors, the triggers, and each agent's grants.
