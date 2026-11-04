@@ -97,7 +97,7 @@ Microsoft's own documentation describes Microsoft Copilot as an AI assistant wit
 
 ## Links
 
-- [Kortix on GitHub](https://github.com/kortix-ai/suna)
+- [Kortix on GitHub](https://github.com/kortix-ai/CompanyOS)
 - [Kortix](https://kortix.com) and [Read the docs](https://kortix.com/docs)
 - [Self-hosting walkthrough](https://opensourcecopilotalternative.com/self-hosting)
 - [Open-source Copilot alternatives, compared](https://opensourcecopilotalternative.com/best-open-source-copilot-alternatives)
